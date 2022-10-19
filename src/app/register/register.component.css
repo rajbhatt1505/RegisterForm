@@ -1,0 +1,19 @@
+form{
+    width: 700px;
+    height: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: large;
+    font-style: italic;
+    color: black;
+    background-image: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.btn{
+    margin-top: 30px;
+    font-style: italic;
+    color: black;
+    font-size: large;
+    background-color: rgb(193, 206, 231);
+}
