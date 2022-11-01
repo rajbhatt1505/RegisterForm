@@ -8,6 +8,11 @@ import { FormsModule , ReactiveFormsModule, } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule} from '@angular/material/form-field'
 import { PasswordModule } from "primeng/password";
+import { MatIconModule } from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+import { MatInputModule } from '@angular/material/input';
+
+
 
 @NgModule({
   declarations: [
@@ -21,7 +26,11 @@ import { PasswordModule } from "primeng/password";
     ReactiveFormsModule,
     BrowserAnimationsModule,
     MatFormFieldModule,
-    PasswordModule
+    PasswordModule,
+    MatButtonModule,
+    MatIconModule,
+    MatInputModule
+    
     
     
   ],
